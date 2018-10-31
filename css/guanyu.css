@@ -1,0 +1,39 @@
+/*引入头部*/
+.header_top {
+    width: 100%;
+    height: 97px;
+    min-height: 97px;
+    min-width: 1078px;
+}
+/*主体*/
+.guan_img{
+    width:100%;
+}
+.guan_img>div{
+    width:1680px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.guan_img>div>img{
+    margin: auto;
+    display: block;
+}
+#zuoguajian{
+    width: 140px;
+    height: 220px;
+    /*border: 1px solid red;*/
+    background: url(../img/21229159_220368_20180409171030.jpg);
+    background-color: white;
+    position: fixed;
+    top:215px;
+    left: 0;
+    transition:all 1s linear;
+}
+#youguajian{
+    width: 150px;
+    height: 150px;
+    /*background: url(img/);*/
+    background-color: white;
+    position: fixed;top:215px;
+    right: 0;
+}

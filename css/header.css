@@ -1,0 +1,81 @@
+.head{
+    width:100%;
+    height:63px;
+    /*border: 1px solid red;*/
+    background: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: url("../images/i1.jpg");
+}
+.bd{
+    width:1070px;
+    height:81px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    display:inline-block;
+    width:248px;
+}
+.nav{
+    width:760px;
+    display: inline-block;
+}
+.head>.bd>.nav>ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+.head>.bd>.nav>ul>li{
+    display: inline-block;
+    width:70px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head>.bd>.nav>ul>li>a{
+    position: relative;
+    width: 70px;
+    height: 51px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+.head>.bd>.nav>ul>li>a :first-child{
+    color:#333;
+    font:12px "微软雅黑";
+    top:0;
+}
+.head>.bd>.nav>ul>li:hover a :first-child{
+    color:#a00;
+    position: absolute;
+    top: 12px;
+    width: 70px;
+}
+
+.span{
+    width: 70px;
+    display: inline-block;
+    position: absolute;
+    top:-30px;
+    text-align: center;
+}
+.head>.bd>.nav>ul>li>a>span{
+    display:block;
+    color:#bbbbbb;
+    text-transform: uppercase;
+    font-size:12px;
+    font-family: "Calibri";
+    top:0;
+}
+.head>.bd>.nav>ul>div.nav_bj{
+    background: url("../images/i2.png") no-repeat 0 3px;
+    width:16px;
+    height:51px;
+    float: left;
+}
